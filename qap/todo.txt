@@ -1,0 +1,9 @@
+
+permutacje
+pomiar czasu
+wczytywanie danych 
+
+zamiana całej maczirzy n^2
+zamian kolumny i wiersza n
+
+Poprawiamy dwie kolumny i dwa wiersze 
