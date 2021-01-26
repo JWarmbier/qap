@@ -20,7 +20,7 @@ int *RandomWalk::step(QAP *QAPHandler) {
         j = rand() % this->problemSize;
 
     std::swap(this->solution[i], this->solution[j]);
-
+    this->hasFinished = true;
     return solution;
 }
 

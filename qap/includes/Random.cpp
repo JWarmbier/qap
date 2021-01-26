@@ -12,6 +12,7 @@ int *Random::step(QAP * QAPHandler) {
     this->solution  = randomPermutationGenerator(this->problemSize);
 
     this->browsedSolutions++;
+    this->hasFinished = true;
 
     return this->solution;
 }

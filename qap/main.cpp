@@ -25,7 +25,7 @@ bool createFolderForResults(string dataName){
     fs::create_directories(RESULTS_PATH + dataName);
 }
 
-void runSolver(QAP * handler, int durationTime, string resultDirectory){
+void runSolverInConstantTime(QAP * handler, double durationTime, string resultDirectory){
     ofstream myfile;
     resultDirectory += "/" + handler->getAlgorithmName();
 
@@ -38,9 +38,35 @@ void runSolver(QAP * handler, int durationTime, string resultDirectory){
         handler->algorithmStep();
         if(handler->getHasAlgorithmFinished())
             myfile << (double)handler->getCost() << endl;
-
     } while (duration_cast<duration<double>>(high_resolution_clock::now() - startTime).count() < durationTime);
-    myfile << (double)handler->getCost() << endl;
+    myfile << "time:" << duration_cast<duration<double>>(high_resolution_clock::now() - startTime).count() << endl;
+    myfile << "browsedSolutions:" << handler->getBrowsedSolutionByAlgorithm() << endl;
+}
+
+void runSolverNumberOfRuns(QAP * handler, double numberOfRuns, string resultDirectory){
+    ofstream myfile;
+    resultDirectory += "/" + handler->getAlgorithmName();
+
+    myfile.open(resultDirectory);
+
+    int counter = 0;
+    int steps = 0;
+    high_resolution_clock::time_point startTime = high_resolution_clock::now();
+    high_resolution_clock::time_point endTime;
+
+    while(counter < numberOfRuns){
+        steps++;
+        handler->algorithmStep();
+        if(handler->getHasAlgorithmFinished()){
+            myfile << (double)handler->getCost() << endl;
+            myfile << "steps:" << steps << endl;
+            counter++;
+            steps = 0;
+        }
+
+    }
+    myfile << "time:" << duration_cast<duration<double>>(high_resolution_clock::now() - startTime).count() << endl;
+    myfile << "browsedSolutions:" << handler->getBrowsedSolutionByAlgorithm() << endl;
 }
 
 void endsRunSolver(QAP * handler, string resultDirectory){
@@ -98,7 +124,7 @@ void qualityRunSolver(QAP * handler, string resultDirectory, AlgorithmStrategy* 
     }
 }
 
-void doTests(string filename, string solution, string dataName, int timeTakenByAlgorithmSec){
+void doTests(string filename, string solution, string dataName, double timeTakenByAlgorithmSec){
 
     string browsedSolution = RESULTS_PATH + string("/browsedSolution/");
     ofstream file;
@@ -115,47 +141,53 @@ void doTests(string filename, string solution, string dataName, int timeTakenByA
     algorithm = new Greedy(qapHandler->getProblemSize());
     qapHandler->setAlgorithmStrategy(algorithm);
 
-
+    //Greedy
     string resultDirectory = RESULTS_PATH + dataName;
-    runSolver(qapHandler,timeTakenByAlgorithmSec, resultDirectory);
-
+//    runSolverNumberOfRuns(qapHandler,10, resultDirectory);
+//
     file << algorithm->getBrowsedSolution() << endl;
     file.close();
 
+    //RandomWalk
     file.open(browsedSolution + dataName + "/RandomWalk");
     delete algorithm;
     algorithm = new RandomWalk(qapHandler->getProblemSize());
     qapHandler->setAlgorithmStrategy(algorithm);
-    runSolver(qapHandler,timeTakenByAlgorithmSec, resultDirectory);
+    runSolverInConstantTime(qapHandler,timeTakenByAlgorithmSec, resultDirectory);
 
     file << algorithm->getBrowsedSolution() << endl;
     file.close();
 
+    //Steepest
     file.open(browsedSolution + dataName + "/Steepest");
     delete algorithm;
     algorithm = new Steepest(qapHandler->getProblemSize());
     qapHandler->setAlgorithmStrategy(algorithm);
-    runSolver(qapHandler,timeTakenByAlgorithmSec, resultDirectory);
+    runSolverNumberOfRuns(qapHandler,10, resultDirectory);
 
     file << algorithm->getBrowsedSolution() << endl;
     file.close();
 
+    // Random
     file.open(browsedSolution + dataName + "/Random");
     delete algorithm;
     algorithm = new Random(qapHandler->getProblemSize());
     qapHandler->setAlgorithmStrategy(algorithm);
-    runSolver(qapHandler,timeTakenByAlgorithmSec, resultDirectory);
+    runSolverInConstantTime(qapHandler,timeTakenByAlgorithmSec, resultDirectory);
 
     file << algorithm->getBrowsedSolution() << endl;
     file.close();
 
-
+    //Heuristics
     delete algorithm;
     algorithm = new Heuristics(qapHandler->getProblemSize());
     qapHandler->setAlgorithmStrategy(algorithm);
     file.open(resultDirectory + "/" + qapHandler->getAlgorithmName());
-    qapHandler->algorithmStep();
 
+    high_resolution_clock::time_point startTime = high_resolution_clock::now();
+    high_resolution_clock::time_point endTime;
+    qapHandler->algorithmStep();
+    file << "time:" << duration_cast<duration<double>>(high_resolution_clock::now() - startTime).count() << endl;
     file << qapHandler->getCost() << endl;
     file.close();
 
@@ -242,10 +274,14 @@ void qualityProximitySolution(string filename, string solution, string dataName,
 }
 
 int main(int argc, char *argv[]){
-    doTests("../instances/small/data/chr25a.dat", "../instances/small/data/chr25a.sln", "chr25a", 10);
-    doTests("../instances/small/data/nug25.dat", "../instances/small/data/nug25.sln", "nug25", 10);
-    doTests("../instances/small/data/nug27.dat", "../instances/small/data/nug27.sln", "nug27", 10);
-    doTests("../instances/small/data/bur26a.dat", "../instances/small/data/bur26a.sln", "bur26a", 10);
+    doTests("../instances/small/data/chr25a.dat", "../instances/small/data/chr25a.sln", "chr25a", 3.12206);
+    doTests("../instances/small/data/nug25.dat", "../instances/small/data/nug25.sln", "nug25", 2.79817);
+    doTests("../instances/small/data/nug27.dat", "../instances/small/data/nug27.sln", "nug27", 4.31772);
+    doTests("../instances/small/data/bur26a.dat", "../instances/small/data/bur26a.sln", "bur26a", 4.98288);
+    doTests("../instances/small/data/chr12a.dat", "../instances/small/data/chr12a.sln", "chr12a", 0.186);
+    doTests("../instances/small/data/tai50b.dat", "../instances/small/data/tai50b.sln", "tai50b", 85.2709);
+    doTests("../instances/small/data/lipa50a.dat", "../instances/small/data/lipa50a.sln", "lipa50a", 45.3639);
+    doTests("../instances/small/data/lipa50b.dat", "../instances/small/data/lipa50b.sln", "lipa50b", 56.3112);
 
 //    compareBeginingsWithEnds("../instances/small/data/chr25a.dat", "../instances/small/data/chr25a.sln", "chr25a", 10);
 //    compareBeginingsWithEnds("../instances/small/data/nug25.dat", "../instances/small/data/nug25.sln", "nug25", 10);

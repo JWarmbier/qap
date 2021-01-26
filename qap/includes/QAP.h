@@ -68,6 +68,8 @@ public:
     void resetAlgorithm();
 
     float optimalSolutionSimilarity();
+
+    long long int getBrowsedSolutionByAlgorithm();
 };
 
 #endif //QAP_H

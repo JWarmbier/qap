@@ -184,7 +184,9 @@ float QAP::optimalSolutionSimilarity() {
     }
     return counter/this->problemSize;
 }
-
+long long QAP::getBrowsedSolutionByAlgorithm(){
+    return algorithm->getBrowsedSolution();
+}
 
 
 
