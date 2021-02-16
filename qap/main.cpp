@@ -5,11 +5,11 @@
 #include <iostream>
 #include "includes/utils.h"
 #include <chrono>
-#include "Steepest.h"
-#include "Greedy.h"
-#include "RandomWalk.h"
-#include "Random.h"
-#include "Heuristics.h"
+#include "algorithm/Steepest.h"
+#include "algorithm/Greedy.h"
+#include "algorithm/RandomWalk.h"
+#include "algorithm/Random.h"
+#include "algorithm/Heuristics.h"
 #include <gtest/gtest.h>
 #include "QAP.h"
 #include <filesystem>
@@ -274,14 +274,14 @@ void qualityProximitySolution(string filename, string solution, string dataName,
 }
 
 int main(int argc, char *argv[]){
-    doTests("../instances/small/data/chr25a.dat", "../instances/small/data/chr25a.sln", "chr25a", 3.12206);
-    doTests("../instances/small/data/nug25.dat", "../instances/small/data/nug25.sln", "nug25", 2.79817);
-    doTests("../instances/small/data/nug27.dat", "../instances/small/data/nug27.sln", "nug27", 4.31772);
-    doTests("../instances/small/data/bur26a.dat", "../instances/small/data/bur26a.sln", "bur26a", 4.98288);
-    doTests("../instances/small/data/chr12a.dat", "../instances/small/data/chr12a.sln", "chr12a", 0.186);
-    doTests("../instances/small/data/tai50b.dat", "../instances/small/data/tai50b.sln", "tai50b", 85.2709);
-    doTests("../instances/small/data/lipa50a.dat", "../instances/small/data/lipa50a.sln", "lipa50a", 45.3639);
-    doTests("../instances/small/data/lipa50b.dat", "../instances/small/data/lipa50b.sln", "lipa50b", 56.3112);
+//    doTests("../instances/small/data/chr25a.dat", "../instances/small/data/chr25a.sln", "chr25a", 3.12206);
+//    doTests("../instances/small/data/nug25.dat", "../instances/small/data/nug25.sln", "nug25", 2.79817);
+//    doTests("../instances/small/data/nug27.dat", "../instances/small/data/nug27.sln", "nug27", 4.31772);
+//    doTests("../instances/small/data/bur26a.dat", "../instances/small/data/bur26a.sln", "bur26a", 4.98288);
+//    doTests("../instances/small/data/chr12a.dat", "../instances/small/data/chr12a.sln", "chr12a", 0.186);
+//    doTests("../instances/small/data/tai50b.dat", "../instances/small/data/tai50b.sln", "tai50b", 85.2709);
+//    doTests("../instances/small/data/lipa50a.dat", "../instances/small/data/lipa50a.sln", "lipa50a", 45.3639);
+//    doTests("../instances/small/data/lipa50b.dat", "../instances/small/data/lipa50b.sln", "lipa50b", 56.3112);
 
 //    compareBeginingsWithEnds("../instances/small/data/chr25a.dat", "../instances/small/data/chr25a.sln", "chr25a", 10);
 //    compareBeginingsWithEnds("../instances/small/data/nug25.dat", "../instances/small/data/nug25.sln", "nug25", 10);

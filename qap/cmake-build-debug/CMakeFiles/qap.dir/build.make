@@ -142,18 +142,18 @@ CMakeFiles/qap.dir/tests/QAPTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/QAPTests.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/QAPTests.cpp -o CMakeFiles/qap.dir/tests/QAPTests.cpp.s
 
-CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.o: ../includes/AlgorithmStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/AlgorithmStrategy.cpp
+CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.o: ../includes/algorithm/AlgorithmStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/AlgorithmStrategy.cpp
 
-CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/AlgorithmStrategy.cpp > CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.i
+CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/AlgorithmStrategy.cpp > CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.i
 
-CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/AlgorithmStrategy.cpp -o CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.s
+CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/AlgorithmStrategy.cpp -o CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.s
 
 CMakeFiles/qap.dir/includes/neighbourGenerator.cpp.o: CMakeFiles/qap.dir/flags.make
 CMakeFiles/qap.dir/includes/neighbourGenerator.cpp.o: ../includes/neighbourGenerator.cpp
@@ -181,96 +181,96 @@ CMakeFiles/qap.dir/tests/neighbourhoodTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/neighbourhoodTests.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/neighbourhoodTests.cpp -o CMakeFiles/qap.dir/tests/neighbourhoodTests.cpp.s
 
-CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.o: ../tests/Algorithms/AlgorithmStrategyTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/AlgorithmStrategyTests.cpp
+CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.o: ../tests/algorithm/AlgorithmStrategyTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/AlgorithmStrategyTests.cpp
 
-CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/AlgorithmStrategyTests.cpp > CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.i
+CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/AlgorithmStrategyTests.cpp > CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.i
 
-CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/AlgorithmStrategyTests.cpp -o CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.s
+CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/AlgorithmStrategyTests.cpp -o CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.s
 
-CMakeFiles/qap.dir/includes/Steepest.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/includes/Steepest.cpp.o: ../includes/Steepest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/qap.dir/includes/Steepest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/Steepest.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Steepest.cpp
+CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.o: ../includes/algorithm/Steepest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Steepest.cpp
 
-CMakeFiles/qap.dir/includes/Steepest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/Steepest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Steepest.cpp > CMakeFiles/qap.dir/includes/Steepest.cpp.i
+CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Steepest.cpp > CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.i
 
-CMakeFiles/qap.dir/includes/Steepest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/Steepest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Steepest.cpp -o CMakeFiles/qap.dir/includes/Steepest.cpp.s
+CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Steepest.cpp -o CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.s
 
-CMakeFiles/qap.dir/includes/Greedy.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/includes/Greedy.cpp.o: ../includes/Greedy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/qap.dir/includes/Greedy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/Greedy.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Greedy.cpp
+CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.o: ../includes/algorithm/Greedy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Greedy.cpp
 
-CMakeFiles/qap.dir/includes/Greedy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/Greedy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Greedy.cpp > CMakeFiles/qap.dir/includes/Greedy.cpp.i
+CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Greedy.cpp > CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.i
 
-CMakeFiles/qap.dir/includes/Greedy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/Greedy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Greedy.cpp -o CMakeFiles/qap.dir/includes/Greedy.cpp.s
+CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Greedy.cpp -o CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.s
 
-CMakeFiles/qap.dir/includes/Random.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/includes/Random.cpp.o: ../includes/Random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/qap.dir/includes/Random.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/Random.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Random.cpp
+CMakeFiles/qap.dir/includes/algorithm/Random.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/includes/algorithm/Random.cpp.o: ../includes/algorithm/Random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/qap.dir/includes/algorithm/Random.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/algorithm/Random.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Random.cpp
 
-CMakeFiles/qap.dir/includes/Random.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/Random.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Random.cpp > CMakeFiles/qap.dir/includes/Random.cpp.i
+CMakeFiles/qap.dir/includes/algorithm/Random.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/algorithm/Random.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Random.cpp > CMakeFiles/qap.dir/includes/algorithm/Random.cpp.i
 
-CMakeFiles/qap.dir/includes/Random.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/Random.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Random.cpp -o CMakeFiles/qap.dir/includes/Random.cpp.s
+CMakeFiles/qap.dir/includes/algorithm/Random.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/algorithm/Random.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Random.cpp -o CMakeFiles/qap.dir/includes/algorithm/Random.cpp.s
 
-CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.o: ../tests/Algorithms/SteepestTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/SteepestTests.cpp
+CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.o: ../tests/algorithm/SteepestTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/SteepestTests.cpp
 
-CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/SteepestTests.cpp > CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.i
+CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/SteepestTests.cpp > CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.i
 
-CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/SteepestTests.cpp -o CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.s
+CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/SteepestTests.cpp -o CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.s
 
-CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.o: ../tests/Algorithms/GreedyTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/GreedyTests.cpp
+CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.o: ../tests/algorithm/GreedyTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/GreedyTests.cpp
 
-CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/GreedyTests.cpp > CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.i
+CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/GreedyTests.cpp > CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.i
 
-CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/GreedyTests.cpp -o CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.s
+CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/GreedyTests.cpp -o CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.s
 
-CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.o: ../tests/Algorithms/RandomTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/RandomTests.cpp
+CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.o: ../tests/algorithm/RandomTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/RandomTests.cpp
 
-CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/RandomTests.cpp > CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.i
+CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/RandomTests.cpp > CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.i
 
-CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/RandomTests.cpp -o CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.s
+CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/RandomTests.cpp -o CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.s
 
 CMakeFiles/qap.dir/tests/include/utilsForTests.cpp.o: CMakeFiles/qap.dir/flags.make
 CMakeFiles/qap.dir/tests/include/utilsForTests.cpp.o: ../tests/include/utilsForTests.cpp
@@ -285,57 +285,57 @@ CMakeFiles/qap.dir/tests/include/utilsForTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/include/utilsForTests.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/include/utilsForTests.cpp -o CMakeFiles/qap.dir/tests/include/utilsForTests.cpp.s
 
-CMakeFiles/qap.dir/includes/Heuristics.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/includes/Heuristics.cpp.o: ../includes/Heuristics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/qap.dir/includes/Heuristics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/Heuristics.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Heuristics.cpp
+CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.o: ../includes/algorithm/Heuristics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Heuristics.cpp
 
-CMakeFiles/qap.dir/includes/Heuristics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/Heuristics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Heuristics.cpp > CMakeFiles/qap.dir/includes/Heuristics.cpp.i
+CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Heuristics.cpp > CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.i
 
-CMakeFiles/qap.dir/includes/Heuristics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/Heuristics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Heuristics.cpp -o CMakeFiles/qap.dir/includes/Heuristics.cpp.s
+CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Heuristics.cpp -o CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.s
 
-CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.o: ../tests/Algorithms/HeuristicsTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/HeuristicsTests.cpp
+CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.o: ../tests/algorithm/HeuristicsTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/HeuristicsTests.cpp
 
-CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/HeuristicsTests.cpp > CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.i
+CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/HeuristicsTests.cpp > CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.i
 
-CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/HeuristicsTests.cpp -o CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.s
+CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/HeuristicsTests.cpp -o CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.s
 
-CMakeFiles/qap.dir/includes/RandomWalk.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/includes/RandomWalk.cpp.o: ../includes/RandomWalk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/qap.dir/includes/RandomWalk.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/RandomWalk.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/RandomWalk.cpp
+CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.o: ../includes/algorithm/RandomWalk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/RandomWalk.cpp
 
-CMakeFiles/qap.dir/includes/RandomWalk.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/RandomWalk.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/RandomWalk.cpp > CMakeFiles/qap.dir/includes/RandomWalk.cpp.i
+CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/RandomWalk.cpp > CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.i
 
-CMakeFiles/qap.dir/includes/RandomWalk.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/RandomWalk.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/RandomWalk.cpp -o CMakeFiles/qap.dir/includes/RandomWalk.cpp.s
+CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/RandomWalk.cpp -o CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.s
 
-CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.o: CMakeFiles/qap.dir/flags.make
-CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.o: ../tests/Algorithms/RandomWalkTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/RandomWalkTests.cpp
+CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.o: CMakeFiles/qap.dir/flags.make
+CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.o: ../tests/algorithm/RandomWalkTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwarmbier/iswd/sem-2/MiOIB/qap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.o -c /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/RandomWalkTests.cpp
 
-CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/RandomWalkTests.cpp > CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.i
+CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/RandomWalkTests.cpp > CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.i
 
-CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/RandomWalkTests.cpp -o CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.s
+CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/RandomWalkTests.cpp -o CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.s
 
 # Object files for target qap
 qap_OBJECTS = \
@@ -344,21 +344,21 @@ qap_OBJECTS = \
 "CMakeFiles/qap.dir/includes/QAP.cpp.o" \
 "CMakeFiles/qap.dir/tests/testUtils.cpp.o" \
 "CMakeFiles/qap.dir/tests/QAPTests.cpp.o" \
-"CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.o" \
+"CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.o" \
 "CMakeFiles/qap.dir/includes/neighbourGenerator.cpp.o" \
 "CMakeFiles/qap.dir/tests/neighbourhoodTests.cpp.o" \
-"CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.o" \
-"CMakeFiles/qap.dir/includes/Steepest.cpp.o" \
-"CMakeFiles/qap.dir/includes/Greedy.cpp.o" \
-"CMakeFiles/qap.dir/includes/Random.cpp.o" \
-"CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.o" \
-"CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.o" \
-"CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.o" \
+"CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.o" \
+"CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.o" \
+"CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.o" \
+"CMakeFiles/qap.dir/includes/algorithm/Random.cpp.o" \
+"CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.o" \
+"CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.o" \
+"CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.o" \
 "CMakeFiles/qap.dir/tests/include/utilsForTests.cpp.o" \
-"CMakeFiles/qap.dir/includes/Heuristics.cpp.o" \
-"CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.o" \
-"CMakeFiles/qap.dir/includes/RandomWalk.cpp.o" \
-"CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.o"
+"CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.o" \
+"CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.o" \
+"CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.o" \
+"CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.o"
 
 # External object files for target qap
 qap_EXTERNAL_OBJECTS =
@@ -368,21 +368,21 @@ qap: CMakeFiles/qap.dir/includes/utils.cpp.o
 qap: CMakeFiles/qap.dir/includes/QAP.cpp.o
 qap: CMakeFiles/qap.dir/tests/testUtils.cpp.o
 qap: CMakeFiles/qap.dir/tests/QAPTests.cpp.o
-qap: CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.o
+qap: CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.o
 qap: CMakeFiles/qap.dir/includes/neighbourGenerator.cpp.o
 qap: CMakeFiles/qap.dir/tests/neighbourhoodTests.cpp.o
-qap: CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.o
-qap: CMakeFiles/qap.dir/includes/Steepest.cpp.o
-qap: CMakeFiles/qap.dir/includes/Greedy.cpp.o
-qap: CMakeFiles/qap.dir/includes/Random.cpp.o
-qap: CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.o
-qap: CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.o
-qap: CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.o
+qap: CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.o
+qap: CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.o
+qap: CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.o
+qap: CMakeFiles/qap.dir/includes/algorithm/Random.cpp.o
+qap: CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.o
+qap: CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.o
+qap: CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.o
 qap: CMakeFiles/qap.dir/tests/include/utilsForTests.cpp.o
-qap: CMakeFiles/qap.dir/includes/Heuristics.cpp.o
-qap: CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.o
-qap: CMakeFiles/qap.dir/includes/RandomWalk.cpp.o
-qap: CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.o
+qap: CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.o
+qap: CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.o
+qap: CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.o
+qap: CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.o
 qap: CMakeFiles/qap.dir/build.make
 qap: lib/libgtestd.a
 qap: lib/libgtest_maind.a

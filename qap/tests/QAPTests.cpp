@@ -8,12 +8,12 @@
 #include <vector>
 #include <stdlib.h>
 #include "QAP.h"
-#include "AlgorithmStrategy.h"
-#include "Greedy.h"
-#include "Steepest.h"
-#include "Random.h"
+#include "algorithm/AlgorithmStrategy.h"
+#include "algorithm/Greedy.h"
+#include "algorithm/Steepest.h"
+#include "algorithm/Random.h"
 #include "utilsForTests.h"
-#include "Heuristics.h"
+#include "algorithm/Heuristics.h"
 
 using namespace std;
 using testing::Eq;

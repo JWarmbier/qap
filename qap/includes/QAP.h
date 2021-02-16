@@ -12,7 +12,7 @@
 #include "QAPException.h"
 #include <sstream>
 #include <vector>
-#include "AlgorithmStrategy.h"
+#include "algorithm/AlgorithmStrategy.h"
 
 using namespace std;
 class AlgorithmStrategy;

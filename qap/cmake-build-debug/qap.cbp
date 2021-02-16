@@ -348,24 +348,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/AlgorithmStrategy.cpp">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/AlgorithmStrategy.h">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Greedy.cpp">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Greedy.h">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Heuristics.cpp">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Heuristics.h">
-			<Option target="qap"/>
-		</Unit>
 		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/QAP.cpp">
 			<Option target="qap"/>
 		</Unit>
@@ -375,22 +357,40 @@
 		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/QAPException.h">
 			<Option target="qap"/>
 		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Random.cpp">
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/AlgorithmStrategy.cpp">
 			<Option target="qap"/>
 		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Random.h">
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/AlgorithmStrategy.h">
 			<Option target="qap"/>
 		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/RandomWalk.cpp">
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Greedy.cpp">
 			<Option target="qap"/>
 		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/RandomWalk.h">
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Greedy.h">
 			<Option target="qap"/>
 		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Steepest.cpp">
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Heuristics.cpp">
 			<Option target="qap"/>
 		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/Steepest.h">
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Heuristics.h">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Random.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Random.h">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/RandomWalk.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/RandomWalk.h">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Steepest.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/algorithm/Steepest.h">
 			<Option target="qap"/>
 		</Unit>
 		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/includes/neighbourGenerator.cpp">
@@ -420,25 +420,25 @@
 		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/main.cpp">
 			<Option target="qap"/>
 		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/AlgorithmStrategyTests.cpp">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/GreedyTests.cpp">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/HeuristicsTests.cpp">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/RandomTests.cpp">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/RandomWalkTests.cpp">
-			<Option target="qap"/>
-		</Unit>
-		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/Algorithms/SteepestTests.cpp">
-			<Option target="qap"/>
-		</Unit>
 		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/QAPTests.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/AlgorithmStrategyTests.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/GreedyTests.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/HeuristicsTests.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/RandomTests.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/RandomWalkTests.cpp">
+			<Option target="qap"/>
+		</Unit>
+		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/algorithm/SteepestTests.cpp">
 			<Option target="qap"/>
 		</Unit>
 		<Unit filename="/home/jwarmbier/iswd/sem-2/MiOIB/qap/tests/include/utilsForTests.cpp">

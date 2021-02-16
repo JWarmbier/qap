@@ -241,87 +241,6 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f lib/googletest-master/googletest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-includes/AlgorithmStrategy.o: includes/AlgorithmStrategy.cpp.o
-
-.PHONY : includes/AlgorithmStrategy.o
-
-# target to build an object file
-includes/AlgorithmStrategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.o
-.PHONY : includes/AlgorithmStrategy.cpp.o
-
-includes/AlgorithmStrategy.i: includes/AlgorithmStrategy.cpp.i
-
-.PHONY : includes/AlgorithmStrategy.i
-
-# target to preprocess a source file
-includes/AlgorithmStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.i
-.PHONY : includes/AlgorithmStrategy.cpp.i
-
-includes/AlgorithmStrategy.s: includes/AlgorithmStrategy.cpp.s
-
-.PHONY : includes/AlgorithmStrategy.s
-
-# target to generate assembly for a file
-includes/AlgorithmStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/AlgorithmStrategy.cpp.s
-.PHONY : includes/AlgorithmStrategy.cpp.s
-
-includes/Greedy.o: includes/Greedy.cpp.o
-
-.PHONY : includes/Greedy.o
-
-# target to build an object file
-includes/Greedy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Greedy.cpp.o
-.PHONY : includes/Greedy.cpp.o
-
-includes/Greedy.i: includes/Greedy.cpp.i
-
-.PHONY : includes/Greedy.i
-
-# target to preprocess a source file
-includes/Greedy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Greedy.cpp.i
-.PHONY : includes/Greedy.cpp.i
-
-includes/Greedy.s: includes/Greedy.cpp.s
-
-.PHONY : includes/Greedy.s
-
-# target to generate assembly for a file
-includes/Greedy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Greedy.cpp.s
-.PHONY : includes/Greedy.cpp.s
-
-includes/Heuristics.o: includes/Heuristics.cpp.o
-
-.PHONY : includes/Heuristics.o
-
-# target to build an object file
-includes/Heuristics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Heuristics.cpp.o
-.PHONY : includes/Heuristics.cpp.o
-
-includes/Heuristics.i: includes/Heuristics.cpp.i
-
-.PHONY : includes/Heuristics.i
-
-# target to preprocess a source file
-includes/Heuristics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Heuristics.cpp.i
-.PHONY : includes/Heuristics.cpp.i
-
-includes/Heuristics.s: includes/Heuristics.cpp.s
-
-.PHONY : includes/Heuristics.s
-
-# target to generate assembly for a file
-includes/Heuristics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Heuristics.cpp.s
-.PHONY : includes/Heuristics.cpp.s
-
 includes/QAP.o: includes/QAP.cpp.o
 
 .PHONY : includes/QAP.o
@@ -349,86 +268,167 @@ includes/QAP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/QAP.cpp.s
 .PHONY : includes/QAP.cpp.s
 
-includes/Random.o: includes/Random.cpp.o
+includes/algorithm/AlgorithmStrategy.o: includes/algorithm/AlgorithmStrategy.cpp.o
 
-.PHONY : includes/Random.o
-
-# target to build an object file
-includes/Random.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Random.cpp.o
-.PHONY : includes/Random.cpp.o
-
-includes/Random.i: includes/Random.cpp.i
-
-.PHONY : includes/Random.i
-
-# target to preprocess a source file
-includes/Random.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Random.cpp.i
-.PHONY : includes/Random.cpp.i
-
-includes/Random.s: includes/Random.cpp.s
-
-.PHONY : includes/Random.s
-
-# target to generate assembly for a file
-includes/Random.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Random.cpp.s
-.PHONY : includes/Random.cpp.s
-
-includes/RandomWalk.o: includes/RandomWalk.cpp.o
-
-.PHONY : includes/RandomWalk.o
+.PHONY : includes/algorithm/AlgorithmStrategy.o
 
 # target to build an object file
-includes/RandomWalk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/RandomWalk.cpp.o
-.PHONY : includes/RandomWalk.cpp.o
+includes/algorithm/AlgorithmStrategy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.o
+.PHONY : includes/algorithm/AlgorithmStrategy.cpp.o
 
-includes/RandomWalk.i: includes/RandomWalk.cpp.i
+includes/algorithm/AlgorithmStrategy.i: includes/algorithm/AlgorithmStrategy.cpp.i
 
-.PHONY : includes/RandomWalk.i
+.PHONY : includes/algorithm/AlgorithmStrategy.i
 
 # target to preprocess a source file
-includes/RandomWalk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/RandomWalk.cpp.i
-.PHONY : includes/RandomWalk.cpp.i
+includes/algorithm/AlgorithmStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.i
+.PHONY : includes/algorithm/AlgorithmStrategy.cpp.i
 
-includes/RandomWalk.s: includes/RandomWalk.cpp.s
+includes/algorithm/AlgorithmStrategy.s: includes/algorithm/AlgorithmStrategy.cpp.s
 
-.PHONY : includes/RandomWalk.s
+.PHONY : includes/algorithm/AlgorithmStrategy.s
 
 # target to generate assembly for a file
-includes/RandomWalk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/RandomWalk.cpp.s
-.PHONY : includes/RandomWalk.cpp.s
+includes/algorithm/AlgorithmStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/AlgorithmStrategy.cpp.s
+.PHONY : includes/algorithm/AlgorithmStrategy.cpp.s
 
-includes/Steepest.o: includes/Steepest.cpp.o
+includes/algorithm/Greedy.o: includes/algorithm/Greedy.cpp.o
 
-.PHONY : includes/Steepest.o
+.PHONY : includes/algorithm/Greedy.o
 
 # target to build an object file
-includes/Steepest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Steepest.cpp.o
-.PHONY : includes/Steepest.cpp.o
+includes/algorithm/Greedy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.o
+.PHONY : includes/algorithm/Greedy.cpp.o
 
-includes/Steepest.i: includes/Steepest.cpp.i
+includes/algorithm/Greedy.i: includes/algorithm/Greedy.cpp.i
 
-.PHONY : includes/Steepest.i
+.PHONY : includes/algorithm/Greedy.i
 
 # target to preprocess a source file
-includes/Steepest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Steepest.cpp.i
-.PHONY : includes/Steepest.cpp.i
+includes/algorithm/Greedy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.i
+.PHONY : includes/algorithm/Greedy.cpp.i
 
-includes/Steepest.s: includes/Steepest.cpp.s
+includes/algorithm/Greedy.s: includes/algorithm/Greedy.cpp.s
 
-.PHONY : includes/Steepest.s
+.PHONY : includes/algorithm/Greedy.s
 
 # target to generate assembly for a file
-includes/Steepest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/Steepest.cpp.s
-.PHONY : includes/Steepest.cpp.s
+includes/algorithm/Greedy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Greedy.cpp.s
+.PHONY : includes/algorithm/Greedy.cpp.s
+
+includes/algorithm/Heuristics.o: includes/algorithm/Heuristics.cpp.o
+
+.PHONY : includes/algorithm/Heuristics.o
+
+# target to build an object file
+includes/algorithm/Heuristics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.o
+.PHONY : includes/algorithm/Heuristics.cpp.o
+
+includes/algorithm/Heuristics.i: includes/algorithm/Heuristics.cpp.i
+
+.PHONY : includes/algorithm/Heuristics.i
+
+# target to preprocess a source file
+includes/algorithm/Heuristics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.i
+.PHONY : includes/algorithm/Heuristics.cpp.i
+
+includes/algorithm/Heuristics.s: includes/algorithm/Heuristics.cpp.s
+
+.PHONY : includes/algorithm/Heuristics.s
+
+# target to generate assembly for a file
+includes/algorithm/Heuristics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Heuristics.cpp.s
+.PHONY : includes/algorithm/Heuristics.cpp.s
+
+includes/algorithm/Random.o: includes/algorithm/Random.cpp.o
+
+.PHONY : includes/algorithm/Random.o
+
+# target to build an object file
+includes/algorithm/Random.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Random.cpp.o
+.PHONY : includes/algorithm/Random.cpp.o
+
+includes/algorithm/Random.i: includes/algorithm/Random.cpp.i
+
+.PHONY : includes/algorithm/Random.i
+
+# target to preprocess a source file
+includes/algorithm/Random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Random.cpp.i
+.PHONY : includes/algorithm/Random.cpp.i
+
+includes/algorithm/Random.s: includes/algorithm/Random.cpp.s
+
+.PHONY : includes/algorithm/Random.s
+
+# target to generate assembly for a file
+includes/algorithm/Random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Random.cpp.s
+.PHONY : includes/algorithm/Random.cpp.s
+
+includes/algorithm/RandomWalk.o: includes/algorithm/RandomWalk.cpp.o
+
+.PHONY : includes/algorithm/RandomWalk.o
+
+# target to build an object file
+includes/algorithm/RandomWalk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.o
+.PHONY : includes/algorithm/RandomWalk.cpp.o
+
+includes/algorithm/RandomWalk.i: includes/algorithm/RandomWalk.cpp.i
+
+.PHONY : includes/algorithm/RandomWalk.i
+
+# target to preprocess a source file
+includes/algorithm/RandomWalk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.i
+.PHONY : includes/algorithm/RandomWalk.cpp.i
+
+includes/algorithm/RandomWalk.s: includes/algorithm/RandomWalk.cpp.s
+
+.PHONY : includes/algorithm/RandomWalk.s
+
+# target to generate assembly for a file
+includes/algorithm/RandomWalk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/RandomWalk.cpp.s
+.PHONY : includes/algorithm/RandomWalk.cpp.s
+
+includes/algorithm/Steepest.o: includes/algorithm/Steepest.cpp.o
+
+.PHONY : includes/algorithm/Steepest.o
+
+# target to build an object file
+includes/algorithm/Steepest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.o
+.PHONY : includes/algorithm/Steepest.cpp.o
+
+includes/algorithm/Steepest.i: includes/algorithm/Steepest.cpp.i
+
+.PHONY : includes/algorithm/Steepest.i
+
+# target to preprocess a source file
+includes/algorithm/Steepest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.i
+.PHONY : includes/algorithm/Steepest.cpp.i
+
+includes/algorithm/Steepest.s: includes/algorithm/Steepest.cpp.s
+
+.PHONY : includes/algorithm/Steepest.s
+
+# target to generate assembly for a file
+includes/algorithm/Steepest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/includes/algorithm/Steepest.cpp.s
+.PHONY : includes/algorithm/Steepest.cpp.s
 
 includes/neighbourGenerator.o: includes/neighbourGenerator.cpp.o
 
@@ -511,168 +511,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-tests/Algorithms/AlgorithmStrategyTests.o: tests/Algorithms/AlgorithmStrategyTests.cpp.o
-
-.PHONY : tests/Algorithms/AlgorithmStrategyTests.o
-
-# target to build an object file
-tests/Algorithms/AlgorithmStrategyTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.o
-.PHONY : tests/Algorithms/AlgorithmStrategyTests.cpp.o
-
-tests/Algorithms/AlgorithmStrategyTests.i: tests/Algorithms/AlgorithmStrategyTests.cpp.i
-
-.PHONY : tests/Algorithms/AlgorithmStrategyTests.i
-
-# target to preprocess a source file
-tests/Algorithms/AlgorithmStrategyTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.i
-.PHONY : tests/Algorithms/AlgorithmStrategyTests.cpp.i
-
-tests/Algorithms/AlgorithmStrategyTests.s: tests/Algorithms/AlgorithmStrategyTests.cpp.s
-
-.PHONY : tests/Algorithms/AlgorithmStrategyTests.s
-
-# target to generate assembly for a file
-tests/Algorithms/AlgorithmStrategyTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/AlgorithmStrategyTests.cpp.s
-.PHONY : tests/Algorithms/AlgorithmStrategyTests.cpp.s
-
-tests/Algorithms/GreedyTests.o: tests/Algorithms/GreedyTests.cpp.o
-
-.PHONY : tests/Algorithms/GreedyTests.o
-
-# target to build an object file
-tests/Algorithms/GreedyTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.o
-.PHONY : tests/Algorithms/GreedyTests.cpp.o
-
-tests/Algorithms/GreedyTests.i: tests/Algorithms/GreedyTests.cpp.i
-
-.PHONY : tests/Algorithms/GreedyTests.i
-
-# target to preprocess a source file
-tests/Algorithms/GreedyTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.i
-.PHONY : tests/Algorithms/GreedyTests.cpp.i
-
-tests/Algorithms/GreedyTests.s: tests/Algorithms/GreedyTests.cpp.s
-
-.PHONY : tests/Algorithms/GreedyTests.s
-
-# target to generate assembly for a file
-tests/Algorithms/GreedyTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/GreedyTests.cpp.s
-.PHONY : tests/Algorithms/GreedyTests.cpp.s
-
-tests/Algorithms/HeuristicsTests.o: tests/Algorithms/HeuristicsTests.cpp.o
-
-.PHONY : tests/Algorithms/HeuristicsTests.o
-
-# target to build an object file
-tests/Algorithms/HeuristicsTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.o
-.PHONY : tests/Algorithms/HeuristicsTests.cpp.o
-
-tests/Algorithms/HeuristicsTests.i: tests/Algorithms/HeuristicsTests.cpp.i
-
-.PHONY : tests/Algorithms/HeuristicsTests.i
-
-# target to preprocess a source file
-tests/Algorithms/HeuristicsTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.i
-.PHONY : tests/Algorithms/HeuristicsTests.cpp.i
-
-tests/Algorithms/HeuristicsTests.s: tests/Algorithms/HeuristicsTests.cpp.s
-
-.PHONY : tests/Algorithms/HeuristicsTests.s
-
-# target to generate assembly for a file
-tests/Algorithms/HeuristicsTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/HeuristicsTests.cpp.s
-.PHONY : tests/Algorithms/HeuristicsTests.cpp.s
-
-tests/Algorithms/RandomTests.o: tests/Algorithms/RandomTests.cpp.o
-
-.PHONY : tests/Algorithms/RandomTests.o
-
-# target to build an object file
-tests/Algorithms/RandomTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.o
-.PHONY : tests/Algorithms/RandomTests.cpp.o
-
-tests/Algorithms/RandomTests.i: tests/Algorithms/RandomTests.cpp.i
-
-.PHONY : tests/Algorithms/RandomTests.i
-
-# target to preprocess a source file
-tests/Algorithms/RandomTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.i
-.PHONY : tests/Algorithms/RandomTests.cpp.i
-
-tests/Algorithms/RandomTests.s: tests/Algorithms/RandomTests.cpp.s
-
-.PHONY : tests/Algorithms/RandomTests.s
-
-# target to generate assembly for a file
-tests/Algorithms/RandomTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/RandomTests.cpp.s
-.PHONY : tests/Algorithms/RandomTests.cpp.s
-
-tests/Algorithms/RandomWalkTests.o: tests/Algorithms/RandomWalkTests.cpp.o
-
-.PHONY : tests/Algorithms/RandomWalkTests.o
-
-# target to build an object file
-tests/Algorithms/RandomWalkTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.o
-.PHONY : tests/Algorithms/RandomWalkTests.cpp.o
-
-tests/Algorithms/RandomWalkTests.i: tests/Algorithms/RandomWalkTests.cpp.i
-
-.PHONY : tests/Algorithms/RandomWalkTests.i
-
-# target to preprocess a source file
-tests/Algorithms/RandomWalkTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.i
-.PHONY : tests/Algorithms/RandomWalkTests.cpp.i
-
-tests/Algorithms/RandomWalkTests.s: tests/Algorithms/RandomWalkTests.cpp.s
-
-.PHONY : tests/Algorithms/RandomWalkTests.s
-
-# target to generate assembly for a file
-tests/Algorithms/RandomWalkTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/RandomWalkTests.cpp.s
-.PHONY : tests/Algorithms/RandomWalkTests.cpp.s
-
-tests/Algorithms/SteepestTests.o: tests/Algorithms/SteepestTests.cpp.o
-
-.PHONY : tests/Algorithms/SteepestTests.o
-
-# target to build an object file
-tests/Algorithms/SteepestTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.o
-.PHONY : tests/Algorithms/SteepestTests.cpp.o
-
-tests/Algorithms/SteepestTests.i: tests/Algorithms/SteepestTests.cpp.i
-
-.PHONY : tests/Algorithms/SteepestTests.i
-
-# target to preprocess a source file
-tests/Algorithms/SteepestTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.i
-.PHONY : tests/Algorithms/SteepestTests.cpp.i
-
-tests/Algorithms/SteepestTests.s: tests/Algorithms/SteepestTests.cpp.s
-
-.PHONY : tests/Algorithms/SteepestTests.s
-
-# target to generate assembly for a file
-tests/Algorithms/SteepestTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/Algorithms/SteepestTests.cpp.s
-.PHONY : tests/Algorithms/SteepestTests.cpp.s
-
 tests/QAPTests.o: tests/QAPTests.cpp.o
 
 .PHONY : tests/QAPTests.o
@@ -699,6 +537,168 @@ tests/QAPTests.s: tests/QAPTests.cpp.s
 tests/QAPTests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/QAPTests.cpp.s
 .PHONY : tests/QAPTests.cpp.s
+
+tests/algorithm/AlgorithmStrategyTests.o: tests/algorithm/AlgorithmStrategyTests.cpp.o
+
+.PHONY : tests/algorithm/AlgorithmStrategyTests.o
+
+# target to build an object file
+tests/algorithm/AlgorithmStrategyTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.o
+.PHONY : tests/algorithm/AlgorithmStrategyTests.cpp.o
+
+tests/algorithm/AlgorithmStrategyTests.i: tests/algorithm/AlgorithmStrategyTests.cpp.i
+
+.PHONY : tests/algorithm/AlgorithmStrategyTests.i
+
+# target to preprocess a source file
+tests/algorithm/AlgorithmStrategyTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.i
+.PHONY : tests/algorithm/AlgorithmStrategyTests.cpp.i
+
+tests/algorithm/AlgorithmStrategyTests.s: tests/algorithm/AlgorithmStrategyTests.cpp.s
+
+.PHONY : tests/algorithm/AlgorithmStrategyTests.s
+
+# target to generate assembly for a file
+tests/algorithm/AlgorithmStrategyTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/AlgorithmStrategyTests.cpp.s
+.PHONY : tests/algorithm/AlgorithmStrategyTests.cpp.s
+
+tests/algorithm/GreedyTests.o: tests/algorithm/GreedyTests.cpp.o
+
+.PHONY : tests/algorithm/GreedyTests.o
+
+# target to build an object file
+tests/algorithm/GreedyTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.o
+.PHONY : tests/algorithm/GreedyTests.cpp.o
+
+tests/algorithm/GreedyTests.i: tests/algorithm/GreedyTests.cpp.i
+
+.PHONY : tests/algorithm/GreedyTests.i
+
+# target to preprocess a source file
+tests/algorithm/GreedyTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.i
+.PHONY : tests/algorithm/GreedyTests.cpp.i
+
+tests/algorithm/GreedyTests.s: tests/algorithm/GreedyTests.cpp.s
+
+.PHONY : tests/algorithm/GreedyTests.s
+
+# target to generate assembly for a file
+tests/algorithm/GreedyTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/GreedyTests.cpp.s
+.PHONY : tests/algorithm/GreedyTests.cpp.s
+
+tests/algorithm/HeuristicsTests.o: tests/algorithm/HeuristicsTests.cpp.o
+
+.PHONY : tests/algorithm/HeuristicsTests.o
+
+# target to build an object file
+tests/algorithm/HeuristicsTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.o
+.PHONY : tests/algorithm/HeuristicsTests.cpp.o
+
+tests/algorithm/HeuristicsTests.i: tests/algorithm/HeuristicsTests.cpp.i
+
+.PHONY : tests/algorithm/HeuristicsTests.i
+
+# target to preprocess a source file
+tests/algorithm/HeuristicsTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.i
+.PHONY : tests/algorithm/HeuristicsTests.cpp.i
+
+tests/algorithm/HeuristicsTests.s: tests/algorithm/HeuristicsTests.cpp.s
+
+.PHONY : tests/algorithm/HeuristicsTests.s
+
+# target to generate assembly for a file
+tests/algorithm/HeuristicsTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/HeuristicsTests.cpp.s
+.PHONY : tests/algorithm/HeuristicsTests.cpp.s
+
+tests/algorithm/RandomTests.o: tests/algorithm/RandomTests.cpp.o
+
+.PHONY : tests/algorithm/RandomTests.o
+
+# target to build an object file
+tests/algorithm/RandomTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.o
+.PHONY : tests/algorithm/RandomTests.cpp.o
+
+tests/algorithm/RandomTests.i: tests/algorithm/RandomTests.cpp.i
+
+.PHONY : tests/algorithm/RandomTests.i
+
+# target to preprocess a source file
+tests/algorithm/RandomTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.i
+.PHONY : tests/algorithm/RandomTests.cpp.i
+
+tests/algorithm/RandomTests.s: tests/algorithm/RandomTests.cpp.s
+
+.PHONY : tests/algorithm/RandomTests.s
+
+# target to generate assembly for a file
+tests/algorithm/RandomTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/RandomTests.cpp.s
+.PHONY : tests/algorithm/RandomTests.cpp.s
+
+tests/algorithm/RandomWalkTests.o: tests/algorithm/RandomWalkTests.cpp.o
+
+.PHONY : tests/algorithm/RandomWalkTests.o
+
+# target to build an object file
+tests/algorithm/RandomWalkTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.o
+.PHONY : tests/algorithm/RandomWalkTests.cpp.o
+
+tests/algorithm/RandomWalkTests.i: tests/algorithm/RandomWalkTests.cpp.i
+
+.PHONY : tests/algorithm/RandomWalkTests.i
+
+# target to preprocess a source file
+tests/algorithm/RandomWalkTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.i
+.PHONY : tests/algorithm/RandomWalkTests.cpp.i
+
+tests/algorithm/RandomWalkTests.s: tests/algorithm/RandomWalkTests.cpp.s
+
+.PHONY : tests/algorithm/RandomWalkTests.s
+
+# target to generate assembly for a file
+tests/algorithm/RandomWalkTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/RandomWalkTests.cpp.s
+.PHONY : tests/algorithm/RandomWalkTests.cpp.s
+
+tests/algorithm/SteepestTests.o: tests/algorithm/SteepestTests.cpp.o
+
+.PHONY : tests/algorithm/SteepestTests.o
+
+# target to build an object file
+tests/algorithm/SteepestTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.o
+.PHONY : tests/algorithm/SteepestTests.cpp.o
+
+tests/algorithm/SteepestTests.i: tests/algorithm/SteepestTests.cpp.i
+
+.PHONY : tests/algorithm/SteepestTests.i
+
+# target to preprocess a source file
+tests/algorithm/SteepestTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.i
+.PHONY : tests/algorithm/SteepestTests.cpp.i
+
+tests/algorithm/SteepestTests.s: tests/algorithm/SteepestTests.cpp.s
+
+.PHONY : tests/algorithm/SteepestTests.s
+
+# target to generate assembly for a file
+tests/algorithm/SteepestTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qap.dir/build.make CMakeFiles/qap.dir/tests/algorithm/SteepestTests.cpp.s
+.PHONY : tests/algorithm/SteepestTests.cpp.s
 
 tests/include/utilsForTests.o: tests/include/utilsForTests.cpp.o
 
@@ -798,27 +798,27 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... qap"
-	@echo "... includes/AlgorithmStrategy.o"
-	@echo "... includes/AlgorithmStrategy.i"
-	@echo "... includes/AlgorithmStrategy.s"
-	@echo "... includes/Greedy.o"
-	@echo "... includes/Greedy.i"
-	@echo "... includes/Greedy.s"
-	@echo "... includes/Heuristics.o"
-	@echo "... includes/Heuristics.i"
-	@echo "... includes/Heuristics.s"
 	@echo "... includes/QAP.o"
 	@echo "... includes/QAP.i"
 	@echo "... includes/QAP.s"
-	@echo "... includes/Random.o"
-	@echo "... includes/Random.i"
-	@echo "... includes/Random.s"
-	@echo "... includes/RandomWalk.o"
-	@echo "... includes/RandomWalk.i"
-	@echo "... includes/RandomWalk.s"
-	@echo "... includes/Steepest.o"
-	@echo "... includes/Steepest.i"
-	@echo "... includes/Steepest.s"
+	@echo "... includes/algorithm/AlgorithmStrategy.o"
+	@echo "... includes/algorithm/AlgorithmStrategy.i"
+	@echo "... includes/algorithm/AlgorithmStrategy.s"
+	@echo "... includes/algorithm/Greedy.o"
+	@echo "... includes/algorithm/Greedy.i"
+	@echo "... includes/algorithm/Greedy.s"
+	@echo "... includes/algorithm/Heuristics.o"
+	@echo "... includes/algorithm/Heuristics.i"
+	@echo "... includes/algorithm/Heuristics.s"
+	@echo "... includes/algorithm/Random.o"
+	@echo "... includes/algorithm/Random.i"
+	@echo "... includes/algorithm/Random.s"
+	@echo "... includes/algorithm/RandomWalk.o"
+	@echo "... includes/algorithm/RandomWalk.i"
+	@echo "... includes/algorithm/RandomWalk.s"
+	@echo "... includes/algorithm/Steepest.o"
+	@echo "... includes/algorithm/Steepest.i"
+	@echo "... includes/algorithm/Steepest.s"
 	@echo "... includes/neighbourGenerator.o"
 	@echo "... includes/neighbourGenerator.i"
 	@echo "... includes/neighbourGenerator.s"
@@ -828,27 +828,27 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... tests/Algorithms/AlgorithmStrategyTests.o"
-	@echo "... tests/Algorithms/AlgorithmStrategyTests.i"
-	@echo "... tests/Algorithms/AlgorithmStrategyTests.s"
-	@echo "... tests/Algorithms/GreedyTests.o"
-	@echo "... tests/Algorithms/GreedyTests.i"
-	@echo "... tests/Algorithms/GreedyTests.s"
-	@echo "... tests/Algorithms/HeuristicsTests.o"
-	@echo "... tests/Algorithms/HeuristicsTests.i"
-	@echo "... tests/Algorithms/HeuristicsTests.s"
-	@echo "... tests/Algorithms/RandomTests.o"
-	@echo "... tests/Algorithms/RandomTests.i"
-	@echo "... tests/Algorithms/RandomTests.s"
-	@echo "... tests/Algorithms/RandomWalkTests.o"
-	@echo "... tests/Algorithms/RandomWalkTests.i"
-	@echo "... tests/Algorithms/RandomWalkTests.s"
-	@echo "... tests/Algorithms/SteepestTests.o"
-	@echo "... tests/Algorithms/SteepestTests.i"
-	@echo "... tests/Algorithms/SteepestTests.s"
 	@echo "... tests/QAPTests.o"
 	@echo "... tests/QAPTests.i"
 	@echo "... tests/QAPTests.s"
+	@echo "... tests/algorithm/AlgorithmStrategyTests.o"
+	@echo "... tests/algorithm/AlgorithmStrategyTests.i"
+	@echo "... tests/algorithm/AlgorithmStrategyTests.s"
+	@echo "... tests/algorithm/GreedyTests.o"
+	@echo "... tests/algorithm/GreedyTests.i"
+	@echo "... tests/algorithm/GreedyTests.s"
+	@echo "... tests/algorithm/HeuristicsTests.o"
+	@echo "... tests/algorithm/HeuristicsTests.i"
+	@echo "... tests/algorithm/HeuristicsTests.s"
+	@echo "... tests/algorithm/RandomTests.o"
+	@echo "... tests/algorithm/RandomTests.i"
+	@echo "... tests/algorithm/RandomTests.s"
+	@echo "... tests/algorithm/RandomWalkTests.o"
+	@echo "... tests/algorithm/RandomWalkTests.i"
+	@echo "... tests/algorithm/RandomWalkTests.s"
+	@echo "... tests/algorithm/SteepestTests.o"
+	@echo "... tests/algorithm/SteepestTests.i"
+	@echo "... tests/algorithm/SteepestTests.s"
 	@echo "... tests/include/utilsForTests.o"
 	@echo "... tests/include/utilsForTests.i"
 	@echo "... tests/include/utilsForTests.s"
